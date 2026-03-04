@@ -14,8 +14,8 @@ start.sh runs run_minimum.py, agent edits its own code, agent sends kill -USR1 t
 
 | File | Purpose |
 |------|---------|
-| `app_minimum.py` | HTTP server serving an inline chat UI (port 8001) |
-| `run_minimum.py` | WebSocket server wrapping the Claude Agent SDK (port 8766) |
+| `app_minimal.py` | HTTP server serving an inline chat UI (port 8001) |
+| `run_minimal.py` | WebSocket server wrapping the Claude Agent SDK (port 8766) |
 | `start.sh` | Restart loop — restarts the agent on exit code 42 |
 
 ## Usage
